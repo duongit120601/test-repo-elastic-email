@@ -1,1 +1,20 @@
-# test-repo-elastic-email
+{
+    "actionGroup": "{{alert.actionGroup}}",
+    "actionGroupName":"{{alert.actionGroupName}}",
+    "actionSubgroup":"{{alert.actionSubgroup}}",
+    "alertId":"{{alert.id}}",
+    "alertState":"{{context.alertState}}",
+    "contextGroup":"{{context.group}}",
+    "contextMetric":"{{context.metric}}",
+    "contextReason":"{{context.reason}}",
+    "contextThreshold":"{{context.threshold}}",
+    "contextTimestamp":"{{context.timestamp}}",
+    "contextValue":"{{context.value}}",
+    "date":"{{date}}",
+    "kibanaBaseUrl":"{{kibanaBaseUrl}}",
+    "ruleId":"{{rule.id}}",
+    "ruleName":"{{rule.name}}",
+    "ruleSpaceId":"{{rule.spaceId}}",
+    "ruleTags":"{{rule.tags}}",
+    "ruleType":"{{rule.type}}"
+}
